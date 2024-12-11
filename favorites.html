@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorites</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #91495a;
+            color: blue;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+
+        .navbar-brand {
+            color: white;
+        }
+
+        .favorites-section {
+            margin-top: 30px;
+        }
+
+        .favorite-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        .favorite-item h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        .btn-primary {
+            background-color: #91495a;
+            border-color: #91495a;
+        }
+
+        .btn-primary:hover {
+            background-color: #bea69e;
+            border-color: #bea69e;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorites.html">Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Favorites Section -->
+    <section class="favorites-section py-5">
+        <div class="container">
+            <h2 class="text-center">My Favorites</h2>
+
+            <!-- Favorite Item 1 -->
+            <div class="favorite-item">
+                <h3>Favorite Movie: Inception</h3>
+                <p>This movie is a mind-bending thriller directed by Christopher Nolan. It explores the concept of dreams within dreams and the subconscious mind.</p>
+                <a href="https://www.imdb.com/title/tt1375666/" target="_blank" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <!-- Favorite Item 2 -->
+            <div class="favorite-item">
+                <h3>Favorite Book: 1984 by George Orwell</h3>
+                <p>A dystopian novel that explores themes of totalitarianism, surveillance, and individuality in a world controlled by Big Brother.</p>
+                <a href="https://www.goodreads.com/book/show/5470.1984" target="_blank" class="btn btn-primary">Learn More</a>
+            </div>
+
+            <!-- Favorite Item 3 -->
+            <div class="favorite-item">
+                <h3>Favorite Music: Bohemian Rhapsody by Queen</h3>
+                <p>This classic song by Queen blends rock, opera, and ballad genres, and remains one of the most iconic songs of all time.</p>
+                <a href="https://www.youtube.com/watch?v=fJ9rUzIMcZQ" target="_blank" class="btn btn-primary">Listen Now</a>
+            </div>
+
+            <!-- Favorite Item 4 -->
+            <div class="favorite-item">
+                <h3>Favorite Food: Pizza</h3>
+                <p>Pizza is a beloved dish around the world, known for its combination of delicious crust, cheese, sauce, and various toppings.</p>
+                <a href="https://www.pizza.com" target="_blank" class="btn btn-primary">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer"> <b>This site is coded by <a href="https://github.com/Marielleford/Marielleford">Marielle Sta. Juana</a>  and is open sourced.</b> 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
